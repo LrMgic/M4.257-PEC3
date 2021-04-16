@@ -191,7 +191,7 @@ footer {
 
 /* Imagen ampliada Javascript*/
 
-.modal-container.active {
+.amplia.accion {
   display: inline-block;
   position:fixed;
   margin-right: 10%;
@@ -205,7 +205,7 @@ footer {
   overflow: hidden;
 }
 
-.modal-container.active::after {
+.amplia.accion::after {
   top: 0;
   left: 0;
   margin: 0;
@@ -216,7 +216,7 @@ footer {
   background-color:rgba(0, 0, 0, 0.658);
 }
 
-.active > img {
+.accion > img {
   padding: 0;
   height: auto;
   max-height: 90vh;
@@ -231,7 +231,7 @@ footer {
   background-color: rgba(238, 176, 132, 0.411);
 }
 
-.active cite.textencima a{
+.accion cite.textencima a{
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.726);
   color: white;

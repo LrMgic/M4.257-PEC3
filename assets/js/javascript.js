@@ -1,12 +1,12 @@
-document.querySelectorAll(".modal-container img").forEach(el=>{
+document.querySelectorAll(".amplia img").forEach(el=>{
     el.addEventListener("click",function(ev){
         ev.stopPropagation();
-        this.parentNode.classList.add("active");
+        this.parentNode.classList.add("accion");
     })
 });
 
-document.querySelectorAll(".modal-container").forEach(el=>{
+document.querySelectorAll(".amplia").forEach(el=>{
     el.addEventListener("click",function(ev){
-        this.classList.remove("active");
+        this.classList.remove("accion");
     })
 });

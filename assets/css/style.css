@@ -48,8 +48,8 @@ header {
 /* ------------------------------------------- Estilos Pie de página --------------------------------- */
 footer {
   width: 100%;
-  position: absolute;
-  bottom: 0vw;
+  position:fixed;
+  bottom: 0;
 
   height: auto;
   margin-top: 20px;

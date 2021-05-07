@@ -16,7 +16,7 @@ body {
   font-family: "Noto Sans", sans-serif;
   line-height: 1.5;
   color: rgb(23, 23, 23);
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* ------------------------------------------- Estilos Generales --------------------------------- */
@@ -47,11 +47,12 @@ header {
 
 /* ------------------------------------------- Estilos Pie de página --------------------------------- */
 footer {
+  display: block;
   width: 100%;
-  position:fixed;
-  bottom: 0;
+  position: absolute;
+  bottom: 0vh;
 
-  height: auto;
+  height: 110px;
   margin-top: 20px;
 
   padding: 10px;
@@ -91,7 +92,7 @@ footer nav a:hover {
 footer .activa a {
   font-size: 1.5em;
 }
-footer a:hover::before, footer a:hover::after {
+footer nav a:hover::before, footer a:hover::after {
   background-image: url("../img/logocara.svg");
   background-size: 20px 20px;
   background-repeat: no-repeat;
@@ -105,7 +106,6 @@ footer a:hover::before, footer a:hover::after {
 main {
   padding: 20px;
   box-sizing: border-box;
-  position: absolute;
   align-items: center;
 }
 main section {
@@ -291,7 +291,7 @@ cite.textencima a {
 }
 
 /* responsive  */
-@media (max-width: 320px) {}
+/* @media (max-width: 320px) {}
 @media (max-width: 480px) {}
 @media (max-width: 600px) {
   section > .bloc .boxdreta,
@@ -323,4 +323,4 @@ cite.textencima a {
     height: auto;
   }
 }
-@media (max-width: 800px) {}
+@media (max-width: 800px) {} */

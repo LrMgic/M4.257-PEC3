@@ -197,7 +197,6 @@ section > .bloc .boxsepara {
 section p,
 section blockquote {
   padding: 5px;
-  text-align: justify;
   font-size: 17px;
   font-family: Sans-serif;
 }

@@ -238,6 +238,21 @@ cite.textencima a {
   left: 10px;
 }
 
+
+/* Animación */
+.clip-imganim1 { 
+  animation: circle 10s infinite
+}
+
+@keyframes circle {
+  0% { clip-path: circle(75%); }
+  20% { clip-path: circle(15% at 22% 70%); }
+  40% { clip-path: circle(17% at 32% 30%); }
+  60% { clip-path: circle(20% at 44% 65%); }
+  80% { clip-path: circle(18% at 58% 60%); }
+  100% { clip-path: circle(75%); }
+}
+
 /* Imagen ampliada Javascript*/
 
 .amplia.accion {

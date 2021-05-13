@@ -5,7 +5,7 @@
   box-sizing: border-box;
   /* border: chartreuse 1px solid; */
 }
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 
 html {
   position: relative;
@@ -42,14 +42,22 @@ body {
 body > header {
   color: white;
   text-align: center;
-  background-image: url("../img/variedades-de-cerveza.jpg");
+  background-image: url(../img/variedades-de-cerveza.jpg);
   padding: 1px;
   border-bottom: 7px inset orangered;
   border-top: 4px inset orangered;
 }
+@media 
+  (min-width: 500px),
+  (-webkit-min-device-pixel-ratio: 1), 
+  (min-resolution: 192dpi) {
+  .img {
+    background-image: url(../img/variedades-de-cerveza-480.jpg);
+  }
+}
 .header::before,
 .header::after {
-  background-image: url("../img/logocara.svg");
+  background-image: url(../img/logocara.svg);
   background-size: 90px 90px;
   background-repeat: no-repeat;
   display: inline-block;
@@ -137,7 +145,7 @@ body > footer .activa a {
 }
 body > footer nav a:hover::before,
 footer a:hover::after {
-  background-image: url("../img/logocara.svg");
+  background-image: url(../img/logocara.svg);
   background-size: 20px 20px;
   background-repeat: no-repeat;
   display: inline-block;

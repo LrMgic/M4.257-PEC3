@@ -1,6 +1,6 @@
 module.exports = {
     "gifsicle": { "optimizationLevel": 1, "interlaced": false, "colors": 150 },
-    "mozjpeg": { "progressive": true, "quality": 90 },
+    "mozjpeg": { "progressive": true, "quality": 50 },
     "pngquant": { "quality": [0.25, 0.5] },
     "svgo": {
         "plugins": [

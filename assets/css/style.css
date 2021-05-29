@@ -253,6 +253,13 @@ section > .bloc .boxdreta {
   padding-top: 5px;
 }
 
+section > .bloc .boxdreta lite-youtube {
+height: 240px;
+width: 427px;
+margin: auto;
+align-items: center;
+}
+
 section > .bloc .boxsepara {
   grid-column: 1 / 5;
   height: 2px;

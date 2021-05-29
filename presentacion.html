@@ -9,6 +9,8 @@
   Empecemos!">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="node_modules/lite-youtube-embed/src/lite-yt-embed.css" />
+  <script src="node_modules/lite-youtube-embed/src/lite-yt-embed.js"></script>
   <script defer src="https://unpkg.com/two-up-element@1"></script>
 </head>
 
@@ -40,7 +42,7 @@
                 <div class="anipres2">
                   <img loading="lazy" width="150" height="150" src="/assets/img/logocara.svg" alt="">
                   <cite class="textencima"> <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Icons
-                    echo por Gerard</a></cite>
+                      echo por Gerard</a></cite>
                 </div>
                 <div class="anipres3">
                   <img loading="lazy" width="150" height="150" src="/assets/img/beer.svg" alt="">
@@ -61,10 +63,12 @@
               más información. Posteriormente se muestra otro articulo sobre como se clasifica la cerveza y un enlace a
               cinco páginas donde se detallas cada una de las categorías de clasificación.</p>
           </div>
-          <div class="boxdreta">
-            <iframe loading="eager" src="https://www.youtube.com/embed/lMfoo3arcHs" title="YouTube video player" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+          <div class="boxdreta amplia">
+            <lite-youtube videoid="lMfoo3arcHs" style="background-image: url('assets/img/fachadavideo.png');">
+              <button type="button" class="lty-playbtn">
+                <span class="lyt-visually-hidden">Reproducir Video: Cerveza en la calle</span>
+              </button>
+            </lite-youtube>
           </div>
           <div class="boxtitul"></div>
           <div class="boxesquerra">
@@ -73,7 +77,8 @@
               las direcciones y artículos de donde se han sacado.</p>
           </div>
           <div class="boxdreta amplia">
-            <img loading="lazy" class="imgdreta" width="314" height="209" src="assets/img/Link1.jpg" alt="Imagen: Enlace">
+            <img loading="lazy" class="imgdreta" width="314" height="209" src="assets/img/Link1.jpg"
+              alt="Imagen: Enlace">
           </div>
         </div>
       </section>

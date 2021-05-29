@@ -1,0 +1,38 @@
+{
+    "short_name": "PEC3",
+    "name": "M4.257: PEC 3 Gerard Vidal",
+    "icons": [
+      {
+        "src": "assets/img/logocara.svg",
+        "type": "image/svg",
+        "sizes": "150X150"
+      },
+      {
+        "src": "assets/img/logocara.svg",
+        "type": "image/svg",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "M4.257: PEC 3 Gerard Vidal",
+        "short_name": "PEC 3",
+        "description": "Master universitario de desarrollo web y aplicaciones. Asignatura M4.257: PEC 3. Alumno Gerard Vidal",
+        "url": "/today?source=pwa",
+        "icons": [{ "src": "assets/img/logocara.svg", "sizes": "192x192" }]
+      }
+    ],
+    "description": "Master universitario de desarrollo web y aplicaciones. Asignatura M4.257: PEC 3. Alumno Gerard Vidal",
+    "screenshots": [
+      {
+        "src": "assets/img/logocara.svg",
+        "type": "image/png",
+        "sizes": "540x720"
+      }
+    ]
+  }

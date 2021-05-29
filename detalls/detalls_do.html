@@ -7,10 +7,25 @@
   <title>Cervecería Gerard: overflow: hidden;</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="../assets/css/style.css">
+
+  <script defer src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <script type="text / javascript">
+    función downloadJSAtOnload () {
+    var element = document.createElement ("script");
+    element.src = " ../assets/js/javascript.js ";
+    document.body.appendChild (elemento);
+    }
+    if (window.addEventListener)
+    window.addEventListener ("cargar", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+    window.attachEvent ("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+    </script>
 </head>
 
 <body>
@@ -31,11 +46,11 @@
         <h2>¿ Como se clasifican las cervezas ?</h2>
         <nav>
           <ul class="detalle">
-            <li><a href="detalls_Ingredientes.html" >Ingredientes</a> / </li>
-            <li><a href="detalls_aspecto.html" >Aspecto</a> / </li>
-            <li><a href="detalls_procedimientos.html" >Procedimientos</a> / </li>
+            <li><a href="detalls_Ingredientes.html">Ingredientes</a> / </li>
+            <li><a href="detalls_aspecto.html">Aspecto</a> / </li>
+            <li><a href="detalls_procedimientos.html">Procedimientos</a> / </li>
             <li>DO / </li>
-            <li><a href="detalls_graduacion.html" >Graduación</a></li>
+            <li><a href="detalls_graduacion.html">Graduación</a></li>
           </ul>
         </nav>
       </header>
@@ -74,17 +89,16 @@
           </div>
           <div class="boxdreta">
             <div>
-              <img class="imgdreta" 
-                   srcset="../assets/img/Mapa-1-320x185.jpg 320w,
+              <img loading="lazy" class="imgdreta" srcset="../assets/img/Mapa-1-320x185.jpg 320w,
                            ../assets/img/Mapa-1-480x277.png 480w,
                            ../assets/img/Mapa-1-800x462.png 800w"
-                   sizes="(max-width: 320px) 320px, (max-width: 480px) 480px, 800px"
-                   src="../assets/img/Mapa-1-800x462.png" 
-                   alt="Imagen: Mapamundi cerveza">
-                <cite class="textencima"><a
-                  href="http://enigmaltic.com/datos-curiosos/los-10-principales-paises-productores-de-cerveza-del-mundo/">Mapamundi cerveza
+                sizes="(max-width: 320px) 320px, (max-width: 480px) 480px, 800px" src="../assets/img/Mapa-1-800x462.png"
+                alt="Imagen: Mapamundi cerveza">
+              <cite class="textencima"><a
+                  href="http://enigmaltic.com/datos-curiosos/los-10-principales-paises-productores-de-cerveza-del-mundo/">Mapamundi
+                  cerveza
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -95,10 +109,10 @@
   <footer>
     <nav>
       <ul>
-        <li><a href="../index.html" >Portada</a>
-        <li class="activa"><a href="../categoria.html" >Categoría</a></li>
-        <li><a href="../presentacion.html" >Presentación</a></li>
-        <li><a href="../enlaces.html" >Enlaces</a></li>
+        <li><a href="../index.html">Portada</a>
+        <li class="activa"><a href="../categoria.html">Categoría</a></li>
+        <li><a href="../presentacion.html">Presentación</a></li>
+        <li><a href="../enlaces.html">Enlaces</a></li>
       </ul>
     </nav>
     <br>
@@ -108,9 +122,6 @@
       Herramientas HTML y CSS aula 1 </p>
     <p>Alumno: Gerard Vidal</p>
   </footer>
-
-  <!-- Javascript: se utiliza para la ampliación de fotos a trabés de onclick -->
-  <script src="../assets/js/javascript.js"></script>
 </body>
 
 </html>

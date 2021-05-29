@@ -7,25 +7,10 @@
   <title>Cervecería Gerard: overflow: hidden;</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
+  <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="../assets/css/style.css">
-
-  <script defer src="https://code.jquery.com/jquery-3.5.0.js"></script>
-  <script type="text / javascript">
-    función downloadJSAtOnload () {
-    var element = document.createElement ("script");
-    element.src = " ../assets/js/javascript.js ";
-    document.body.appendChild (elemento);
-    }
-    if (window.addEventListener)
-    window.addEventListener ("cargar", downloadJSAtOnload, false);
-    else if (window.attachEvent)
-    window.attachEvent ("onload", downloadJSAtOnload);
-    else window.onload = downloadJSAtOnload;
-    </script>
 </head>
 
 <body>
@@ -87,28 +72,28 @@
           </div>
           <div class="boxdreta">
             <div>
-              <img loading="lazy" class="imgdreta" srcset="../assets/img/Beer.jpg 320w,
+              <img class="imgdreta" srcset="../assets/img/Beer.jpg 320w,
                            ../assets/img/Beer-480.png 480w,
                            ../assets/img/Beer-800.png 800w,
                            ../assets/img/Beer.jpg 5000w"
-                sizes="(max-width: 320px) 320px, (max-width: 480px) 480px, 800px" src="../assets/img/Beer.jpg"
-                alt="Imagen: Diferencias entre cervezas">
+                   sizes="(max-width: 320px) 320px, (max-width: 480px) 480px, 800px"
+                   src="../assets/img/Beer.jpg" 
+                   alt="Imagen: Diferencias entre cervezas">
               <cite class="textencima"><a
-                  href="https://hacercervezaartesanal.com/ingredientes-cerveza-artesanal/">Diferencias entre
-                  cervezas</a></cite>
+                  href="https://hacercervezaartesanal.com/ingredientes-cerveza-artesanal/">Diferencias entre cervezas</a></cite>
             </div>
 
             <figure>
-              <img loading="lazy" class="imgdretasec" src="../assets/img/Weyermann_Produkte.gif" alt="Imagen: De la Malta el color">
+              <img class="imgdretasec" src="../assets/img/Weyermann_Produkte.gif"
+                alt="Imagen: De la Malta el color">
               <cite class="textencima"><a
-                  href="https://sobrecolores.blogspot.com/2010/02/el-color-de-la-cerveza-parte-ii.html">De la Malta el
-                  color</a></cite>
+                  href="https://sobrecolores.blogspot.com/2010/02/el-color-de-la-cerveza-parte-ii.html">De la Malta el color</a></cite>
             </figure>
             <figure>
-              <img loading="lazy" class="imgdretasec" src="../assets/img/cervezas.webp" alt="Imagen: Opacidad de las cerveza">
+              <img class="imgdretasec" src="../assets/img/cervezas.webp"
+                alt="Imagen: Opacidad de las cerveza">
               <cite class="textencima"><a
-                  href="https://agromagazine.com/gastronomia/cata-cientifica-de-cerveza-descubriendo-matices-y-sabores/">Opacidad
-                  de las cerveza</a></cite>
+                  href="https://agromagazine.com/gastronomia/cata-cientifica-de-cerveza-descubriendo-matices-y-sabores/">Opacidad de las cerveza</a></cite>
             </figure>
           </div>
       </section>
@@ -131,6 +116,8 @@
     <p>Proyecto asociado al master universitario desarrollo de entornos web y aplicaciones (UOC), asignatura M4.257 -
       Herramientas HTML y CSS aula 1 </p>
     <p>Alumno: Gerard Vidal</p>
-</body>
+  </footer>
 
-</html>
+  <!-- Javascript: se utiliza para la ampliación de fotos a trabés de onclick -->
+  <script src="../assets/js/javascript.js"></script>
+</body>

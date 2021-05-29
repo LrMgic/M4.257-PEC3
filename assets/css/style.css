@@ -5,6 +5,7 @@
   box-sizing: border-box;
   /* border: chartreuse 0.1px solid; */
 }
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap);
 
 html {
   position: relative;
@@ -46,8 +47,9 @@ body > header {
   border-bottom: 7px inset orangered;
   border-top: 4px inset orangered;
 }
-@media (min-width: 500px),
-  (-webkit-min-device-pixel-ratio: 1),
+@media 
+  (min-width: 500px),
+  (-webkit-min-device-pixel-ratio: 1), 
   (min-resolution: 192dpi) {
   .img {
     background-image: url(../img/variedades-de-cerveza-480.jpg);
@@ -156,6 +158,7 @@ body > main {
   padding: 20px;
   box-sizing: border-box;
   align-items: center;
+
 }
 body > main section {
   margin: 5px 5vw;
@@ -382,15 +385,11 @@ section > .bloc .boxcentre .imgredu {
 }
 
 @media (max-width: 1000px) {
-  section > .bloc .boxesquerra {
-    padding-left: 0px;
-  }
+  section > .bloc .boxesquerra { padding-left: 0px; }
 }
 
 @media (max-width: 800px) {
-  body > main section {
-    margin: 0;
-  }
+  body > main section { margin: 0; }
   section > .bloc .boxdreta {
     grid-column: 1 / 5;
     margin-bottom: 15px;
@@ -401,9 +400,7 @@ section > .bloc .boxcentre .imgredu {
     padding-left: 10px;
   }
 
-  section > .bloc .boxcentre {
-    grid-column: 1 / 5;
-  }
+  section > .bloc .boxcentre { grid-column: 1 / 5; }
 }
 
 @media (max-width: 600px) {
@@ -442,44 +439,27 @@ section > .bloc .boxcentre .imgredu {
 @media (max-width: 320px) {
   body > main {
     padding: 2px;
+    
   }
 }
 
 /* Animación */
-.sombra-imganim1 {
+.sombra-imganim1{
   background-color: rgba(0, 0, 0, 0.808);
   border-radius: 15px;
 }
 
-.clip-imganim1 {
-  animation: circle 15s infinite;
-}
+.clip-imganim1 { animation: circle 15s infinite; }
 
 @keyframes circle {
-  0% {
-    clip-path: circle(100%);
-  }
-  10% {
-    clip-path: circle(75%);
-  }
-  20% {
-    clip-path: circle(15% at 23% 70%);
-  }
-  40% {
-    clip-path: circle(17% at 33% 30%);
-  }
-  60% {
-    clip-path: circle(20% at 44% 65%);
-  }
-  80% {
-    clip-path: circle(18% at 58% 60%);
-  }
-  90% {
-    clip-path: circle(100%);
-  }
-  100% {
-    clip-path: circle(100%);
-  }
+  0% { clip-path: circle(100%); }
+  10% { clip-path: circle(75%); }
+  20% { clip-path: circle(15% at 23% 70%); }
+  40% { clip-path: circle(17% at 33% 30%); }
+  60% { clip-path: circle(20% at 44% 65%); }
+  80% { clip-path: circle(18% at 58% 60%); }
+  90% { clip-path: circle(100%); }
+  100% { clip-path: circle(100%); }
 }
 
 .anipres1 {

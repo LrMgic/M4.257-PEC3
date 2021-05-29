@@ -254,10 +254,17 @@ section > .bloc .boxdreta {
 }
 
 section > .bloc .boxdreta lite-youtube {
-height: 240px;
-width: 427px;
+max-height: 240px;
+max-width: 427px;
+width: 100%;
 margin: auto;
 align-items: center;
+}
+
+@media (max-width: 450px) {
+  section > .bloc .boxdreta lite-youtube {
+    margin: auto;
+    }
 }
 
 section > .bloc .boxsepara {
@@ -487,6 +494,11 @@ section > .bloc .boxcentre .imgredu {
   width: 300px;
   animation: animationbc 10s infinite;
   border-radius: 10px;
+}
+@media (max-width: 320px) {
+  .anipres1 {
+    width: auto;
+  }
 }
 @keyframes animationbc {
   0.0% {

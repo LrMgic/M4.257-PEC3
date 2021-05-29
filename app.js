@@ -1,7 +1,7 @@
 const sharp = require("sharp");
 
-const nom = "cerveza-helada-1024x646";
-const nom2 = "cerveza-helada";
+const nom = "d89440679682ff157aa46a31d63fc5d9";
+const nom2 = nom;
 const termi = "jpg";
 
 sharp("assets/img/"+nom+"."+termi).resize(320, undefined).toFile("assets/img/"+nom2+"-320."+termi);

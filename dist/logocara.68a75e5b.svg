@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" version="0.1" id="logo1"
+  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    .div1 {
+      fill: white;
+      stroke: black;
+      stroke-width: 5px;
+      opacity: 0.5;}
+    .div2 {
+      fill: orange;
+      stroke: black;
+      stroke-width: 10px; }
+    .div3 {
+      fill: blue; }
+    .div4 {
+      fill: NONE;
+      stroke: black;
+      stroke-width: 4px; }
+    #sonrrie { animation: moure 20s infinite; }
+    #tristor {
+      animation: moure 20s infinite;
+      animation-delay: -10s; }
+    @keyframes moure {
+      25% { transform: translate(0, 0); }
+      50% { transform: translate(100%, 200%); }
+      75% { transform: translate(0, 0); }
+    }
+  </style>
+  <circle class="div1" cx="100" cy="100" r="90" />
+  <g>
+    <circle class="div2" cx="100" cy="100" r="50" />
+    <rect class="div3" x="45" y="70" width="110" height="20" />
+    <ellipse cx="85" cy="95" rx="5" ry="8" />
+    <ellipse cx="115" cy="95" rx="5" ry="8" />
+    <path id="sonrrie" class="div4" d="M 85 115 Q 100 140 115 115">
+    </path>
+    <path id="tristor" class="div4" d="M 85 120 Q 100 100 115 120">
+    </path>
+  </g>
+</svg>

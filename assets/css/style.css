@@ -195,8 +195,11 @@ ul.detalle a{
 
 @media (max-width: 480px) {
   ul.detalle a{
-    line-height: 2.5;
+    line-height: 3;
     padding: 16px 5px;
+  }
+  ul.detalle a span{
+    color: rgba(210, 105, 30, 0.192);
   }
 }
 
